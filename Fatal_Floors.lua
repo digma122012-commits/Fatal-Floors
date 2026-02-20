@@ -31,7 +31,8 @@ Section_Farm:NewButton("Teleport to Shard", "Teleport to Shard, PLEASE USE IT IN
             local RootPart = object:FindFirstChild("Handle")
             HRP.CFrame = RootPart.CFrame
         end 
-    else:
+    else
         print("no shard")
     end
+
 end)
